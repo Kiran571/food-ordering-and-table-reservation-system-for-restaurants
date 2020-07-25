@@ -1,6 +1,6 @@
 <?php 
 	
-	$db = new mysqli("localhost", "root", "", "mfors");
+	$db = new mysqli("localhost", "root", "", "foodorder");
 	
 	if($db->connect_errno) {
 		
